@@ -14,6 +14,9 @@
 		45A85F9C253522380094CAF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A85F9B253522380094CAF7 /* Assets.xcassets */; };
 		45A85F9F253522380094CAF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A85F9D253522380094CAF7 /* LaunchScreen.storyboard */; };
 		45A85FA2253522380094CAF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A85FA1253522380094CAF7 /* main.m */; };
+		45A85FAC253522810094CAF7 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A85FAB253522810094CAF7 /* SWRevealViewController.m */; };
+		45A85FB32535246E0094CAF7 /* ChannelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A85FB22535246E0094CAF7 /* ChannelVC.m */; };
+		45A85FB8253524850094CAF7 /* ChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A85FB7253524850094CAF7 /* ChatVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		45A85F9E253522380094CAF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45A85FA0253522380094CAF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45A85FA1253522380094CAF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45A85FAA253522810094CAF7 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		45A85FAB253522810094CAF7 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		45A85FB12535246E0094CAF7 /* ChannelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChannelVC.h; sourceTree = "<group>"; };
+		45A85FB22535246E0094CAF7 /* ChannelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChannelVC.m; sourceTree = "<group>"; };
+		45A85FB6253524850094CAF7 /* ChatVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatVC.h; sourceTree = "<group>"; };
+		45A85FB7253524850094CAF7 /* ChatVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +70,10 @@
 		45A85F8E253522350094CAF7 /* SmackObjC */ = {
 			isa = PBXGroup;
 			children = (
+				45A85FB0253523E40094CAF7 /* Model */,
+				45A85FAF253523DD0094CAF7 /* View */,
+				45A85FAE253523D20094CAF7 /* Controller */,
+				45A85FA92535224B0094CAF7 /* Supporting Files */,
 				45A85F8F253522350094CAF7 /* AppDelegate.h */,
 				45A85F90253522350094CAF7 /* AppDelegate.m */,
 				45A85F92253522350094CAF7 /* SceneDelegate.h */,
@@ -74,6 +87,40 @@
 				45A85FA1253522380094CAF7 /* main.m */,
 			);
 			path = SmackObjC;
+			sourceTree = "<group>";
+		};
+		45A85FA92535224B0094CAF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45A85FAA253522810094CAF7 /* SWRevealViewController.h */,
+				45A85FAB253522810094CAF7 /* SWRevealViewController.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45A85FAE253523D20094CAF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				45A85FB12535246E0094CAF7 /* ChannelVC.h */,
+				45A85FB22535246E0094CAF7 /* ChannelVC.m */,
+				45A85FB6253524850094CAF7 /* ChatVC.h */,
+				45A85FB7253524850094CAF7 /* ChatVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		45A85FAF253523DD0094CAF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45A85FB0253523E40094CAF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +194,9 @@
 			files = (
 				45A85F97253522350094CAF7 /* ViewController.m in Sources */,
 				45A85F91253522350094CAF7 /* AppDelegate.m in Sources */,
+				45A85FB32535246E0094CAF7 /* ChannelVC.m in Sources */,
+				45A85FAC253522810094CAF7 /* SWRevealViewController.m in Sources */,
+				45A85FB8253524850094CAF7 /* ChatVC.m in Sources */,
 				45A85FA2253522380094CAF7 /* main.m in Sources */,
 				45A85F94253522350094CAF7 /* SceneDelegate.m in Sources */,
 			);
